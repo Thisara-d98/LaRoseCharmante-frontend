@@ -10,7 +10,7 @@ function navbar(){
         <div>
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="m-4 navbar-brand" href="#">La rose Charmante</a>
+                    <a id="navbar-logo" class="m-4 navbar-brand" href="#">La rose Charmante</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -21,7 +21,7 @@ function navbar(){
                             <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
                             <li class="nav-item"><a class="nav-link disabled">fashion Tips</a></li>
-                            <a class="nav-link" href="login"><button class="btn loginbtn-homepage" >login</button></a>
+                            <a class="nav-link" href="login"><button class="btn loginbtn-navbar" >login</button></a>
                         </ul>
                     </div>
                 </div>

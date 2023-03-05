@@ -27,7 +27,13 @@
 }
 
 #signin-btn{
-    color:white;
+    color:black;
     background-color:#e8c400;
+    border:none;
+}
+
+#signin-btn:hover{
+    color:white;
+    background-color:black;
     border:none;
 }

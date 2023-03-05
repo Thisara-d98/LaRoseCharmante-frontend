@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 .navbar{
-    background-color: #ff0266;
+    background-color:#e8c400;
     
+}
+
+.loginbtn-navbar{
+    background-color: #ff9900;
+}
+
+.loginbtn-navbar:hover {
+    background-color: black;
+    color: white;
+  }
+
+#navbar-logo{
+    font-family: 'Homemade Apple', cursive;
+    font-stretch: expanded;
+    color:#ff0266;
 }
