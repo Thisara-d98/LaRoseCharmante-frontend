@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from 'react-fontawesome';
 import Link from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from '../../common/pages/login';
+import signup from '../../common/pages/signup';
 
 import './navbar.css';
 function navbar(){
@@ -21,7 +22,8 @@ function navbar(){
                             <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
                             <li class="nav-item"><a class="nav-link disabled">fashion Tips</a></li>
-                            <a class="nav-link" href="login"><button class="btn loginbtn-navbar" >login</button></a>
+                            <li><a class="nav-link" href="login"><button class="btn loginbtn-navbar" >login</button></a></li>
+                            <li><a class="nav-link" href="signup"><button class="btn loginbtn-navbar" >signup</button></a></li>
                         </ul>
                     </div>
                 </div>

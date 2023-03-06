@@ -9,7 +9,7 @@ function homepage(){
         <div>
             <Navbar/>
             <div class="row">
-                <div class="column"><Infocarousel class="carouselhomepage"/></div>
+                <div class="column" id="homepage-top-left"><Infocarousel class="carouselhomepage"/></div>
                 <div class="column">
                     <h1 id="homepage-top-right">La Rose Charmante</h1>
                     <p id="homepage-top-right-content">Experience the magic of tradition and innovation combined

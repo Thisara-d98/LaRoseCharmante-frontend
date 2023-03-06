@@ -3,49 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Homemade+Apple&family=Merriweather:ital@1&family=Nanum+Brush+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Homemade+Apple&family=Merriweather:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Baumans&family=Caveat+Brush&family=Homemade+Apple&family=Merriweather:ital@1&display=swap');
-.column{
-    width:50%;
-    margin:0px;
-}
 
-#homepage-top-right{
-    margin-top: 300px;
-    font-size: 48px;
-    font-family: 'Homemade Apple', cursive;
-    color:#ff0266;
 
-}
-
-#homepage-top-left{
+#finddress-btn-area{
     margin-top:40px;
-}
-
-#homepage-top-right-content{
+    margin-right:50px;
     font-family: 'Baloo Paaji 2', cursive;
-    font-size: 20px;
+    background-color:#ff0266 ;
+    color:white;
 }
 
-#homepage-secondrow{
+#finddress-btn-area:hover{
+    margin-top:40px;
+    margin-right:50px;
     font-family: 'Baloo Paaji 2', cursive;
-    font-size: 58px;
-    margin-top: 80px;
-}
-
-#homepage-third-row{
-    font-family: 'Baloo Paaji 2', cursive;
-    font-size: 20px;
-    margin-top: 30px;
-    text-align: center;
-}
-
-#homepage-fourth-row-card{
-    font-size: 20px;
-    margin-top: 20px;
-}
-
-#homepage-fourth-row-card:hover{
-    font-size: 20px;
-    margin-top: 20px;
+    background-color: #e8c400;
     color:black;
-    background-color:#ff0266;
 }
+
+#finddress-btn-area a:hover {
+    color: red;
+  }
+
