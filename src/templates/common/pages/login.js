@@ -9,6 +9,8 @@ import {
 from 'mdb-react-ui-kit';
 import Navbar  from '../../components/navbar/navbar';
 import Footer from '../../components/footer/footer';
+import Link from 'react-dom';
+
 import '../styles/login.css';
 function login() {
   return (
@@ -26,14 +28,14 @@ function login() {
                             <h4 className="mt-1 mb-5 pb-1">Inspired by latest</h4>
                         </div>
 
-                        <p>Please login to your account</p>
+                        <p class="text-warning -b">Please login to your account</p>
 
 
                         <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email'/>
                         <MDBInput wrapperClass='mb-4' label='Password' id='form2' type='password'/>
 
                         <div className="text-center pt-1 mb-5 pb-1">
-                            <MDBBtn id ="signin-btn" className="mb-4 w-100 gradient-custom-2">Sign in</MDBBtn>
+                            <a href="/userpage" ><MDBBtn id ="signin-btn" className="mb-4 w-100 gradient-custom-2">Sign in</MDBBtn></a>
                             <a className="text-muted" href="#!">Forgot password?</a>
                         </div>
 
